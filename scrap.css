@@ -839,7 +839,8 @@ header {
 }
 
 .grid-block.flex-vertical {
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  vertical-align: middle;
   display: flex;
   width: 550px;
 }
@@ -1158,10 +1159,11 @@ header {
 
 
 .project-border {
-  background-color: rgba(99, 91, 255, .1);
+  /* background-color: rgba(99, 91, 255, .1); */
   border-radius: 5px;
+  border: .3px solid #e2e1f9;
   padding: 0;
-  box-shadow: 0 0 7px 7px rgba(99, 91, 255, .1);
+  /* box-shadow: 0 0 7px 7px rgba(99, 91, 255, .1); */
 }
 
 .link-icon {
@@ -1236,6 +1238,7 @@ header {
 
 .slider-wrapper {
   width: 500px;
+  height: 500px;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -2032,4 +2035,3 @@ img {
     grid-area: span 1 / span 3 / span 1 / span 3;
   }
 }
-
